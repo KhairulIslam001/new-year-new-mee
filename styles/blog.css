@@ -49,7 +49,7 @@ body {
     border: none;
 }
 
-
+/* completing the failure part */
 main {
     max-width: 1600px;
     margin: 0 auto;
@@ -61,7 +61,6 @@ main section {
 
 .failure {
     display: flex;
-    /* justify-content: space-between; */
     padding: 0 200px;
 }
 
@@ -92,7 +91,76 @@ main section {
 .lines {
     margin-top: 0;
     margin-bottom: 8;
-    color:  #444343);
+    color: #444343);
     font-size: 16px;
     font-weight: 400;
 }
+
+
+/* completing the plan part */
+
+.plan {
+    text-align: center;
+    width: 1600px;
+}
+
+.plan-heading {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.planning-details {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 0;
+}
+
+.plan-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.plan-des {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+/* doing the gradient section */
+
+.gradient {
+    width: 1140px;
+    height: 300px;
+    background-position: right;
+    background: linear-gradient(to right, #F15B22 0%, rgba(241, 91, 34, 0.00)), url('../images/watch.png');
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    margin: 130px 230px 0px 230px;
+}
+
+.gradient-content {
+    padding: 20px 620px 50px 64px;
+}
+
+.gradient-txt {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.secondary-btn {
+    padding: 21px 36px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+}
+
